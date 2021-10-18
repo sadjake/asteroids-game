@@ -25,6 +25,9 @@ class Asteroid extends GameObject {
   void show() {
     stroke(255);
     ellipse(loc.x, loc.y, SIZE, SIZE);
+        ellipse(loc.x, loc.y, SIZE/2, SIZE/2);
+    ellipse(loc.x, loc.y, SIZE/4, SIZE/4);
+    ellipse(loc.x, loc.y, SIZE/1.5, SIZE/1.5);
   }
 
   void act() {
