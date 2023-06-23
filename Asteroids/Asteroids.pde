@@ -1,6 +1,5 @@
 //Jake Choi
 //October 4, 2021
-//Computer Programming 12
 
 boolean upkey, downkey, leftkey, rightkey, spacekey, mkey;
 boolean ufo;
